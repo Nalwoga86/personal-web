@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family:'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+.san{
+    height: 100hv;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../SANDRA/jjj.jpg);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color:black;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: aqua;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+} 
+nav li a{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.tone{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%);
+}
+h4{
+    color:black;
+    margin: 10px 0px 10px;
+    font-size: 30px;
+}
+h1{
+    color:aqua;
+    margin: 10px opx 10px;
+    font-size: 50px;
+}
+h2{
+    color:brown;
+    margin: 10px opx 10px;
+    font-size: 20px;
+}
+body{
+    background-color:rgb(26, 145, 105);
+}
+    img{
+        float: right;
+    }
